@@ -1,0 +1,42 @@
+									SEÇÃO 02:
+WEBSERVICES:
+  Aplicaçôes que são hospedada e pode se acessada atraves do protocolo HTTP.
+	Webservice serve para fazer um reúso.
+W3C
+  São pedaços de software que eu posso disponibilizar via HTTP e consumir atraves do protocolo HTTP, usando doreferentes tipos de cliente.
+
+SOAP X REST
+  Soap usa o http para fazer chamada rpc trafegando xml 
+  Rest faz requisições http e suporta diferentes formatos de arquivos(é melhor que Soap)
+
+REST 
+  Representational State Transfer (REST) é um estilo de arquitetura de software para sistemas distribuídos de hipermídia, como a World Wide Web.
+
+HTTP Status Codes
+1xx Informacionais
+2xx Sucesso
+3xx Redirecionamento
+4xx erro de client
+5xx erro de server
+
+2XX SUCESSO
+200 = ok
+201 = created
+202 = accepted
+204= no content
+
+4XX ERRO CLIENT
+400 = bad request
+401 = unauthorized
+403 = forbidden
+404 = not found
+
+5XX ERRO DE SERVER
+500 = internal server erro
+
+ Criar um novo recurso usa o POST 
+ Pra bucar ou ler os dado de um recurso usa o GET 
+ Pra atalizar na maioria da vezes vai usar o PUT e em alguma vezes usa o PATCH 
+
+
+
